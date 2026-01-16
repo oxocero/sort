@@ -1,0 +1,244 @@
+# =============================================================================
+# AI Code Assistants
+# =============================================================================
+# Claude Code
+.claude/
+.claude*
+*.claude
+CLAUDE.md
+CLAUDE.local.md
+
+# Cursor
+.cursor/
+.cursorignore
+.cursorrc
+.cursorrules
+cursor.json
+
+# GitHub Copilot
+.copilot/
+.github/copilot/
+copilot-instructions.md
+
+# Aider
+.aider*
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
+
+# Codeium
+.codeium/
+
+# Tabnine
+.tabnine/
+tabnine_config.json
+
+# Amazon CodeWhisperer / Q
+.aws/codewhisperer/
+.amazonq/
+
+# Sourcegraph Cody
+.cody/
+cody.json
+
+# Continue.dev
+.continue/
+.continuerc.json
+
+# Windsurf
+.windsurf/
+
+# Replit AI
+.replit
+replit.nix
+
+# Generic AI assistant files
+.ai/
+.assistant/
+ai-context.md
+ai-instructions.md
+.prompts/
+
+# =============================================================================
+# macOS
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =============================================================================
+# Windows
+# =============================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =============================================================================
+# Linux
+# =============================================================================
+*~
+.directory
+
+# =============================================================================
+# Build Directories
+# =============================================================================
+build/
+builds/
+out/
+dist/
+bin/
+obj/
+lib/
+*.out
+
+# =============================================================================
+# CMake
+# =============================================================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeScripts/
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+*.cmake
+!CMakeLists.txt
+
+# =============================================================================
+# C/C++ Compiled Files
+# =============================================================================
+*.o
+*.obj
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# =============================================================================
+# IDE / Editor Files
+# =============================================================================
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, etc.)
+.idea/
+*.iml
+cmake-build-*/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swn
+tags
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# Package Managers
+# =============================================================================
+# vcpkg
+vcpkg_installed/
+
+# Conan
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# =============================================================================
+# Debug / Profiling
+# =============================================================================
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.log
+*.prof
+*.gcda
+*.gcno
+*.gcov
+perf.data
+perf.data.old
+
+# =============================================================================
+# Test Output
+# =============================================================================
+Testing/
+test-results/
+coverage/
+*.gcov
+
+# =============================================================================
+# Documentation Build
+# =============================================================================
+docs/_build/
+docs/html/
+docs/latex/
+doxygen/
+
+# =============================================================================
+# Temporary Files
+# =============================================================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+
+# =============================================================================
+# Archives
+# =============================================================================
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# =============================================================================
+# Secrets / Credentials (just in case)
+# =============================================================================
+*.pem
+*.key
+*.env
+.env.*
+secrets.*
+credentials.*
