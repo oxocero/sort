@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-File Sorter - Organizes files by type and content using local AI models.
+Oxocero's File Sorter - Organizes files by type and content using local AI models.
 
 Uses:
 - CLIP (ViT-B/32) for image/video classification
